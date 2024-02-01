@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html> 
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="title icon" type="image/png" href="images/camera-icon.png">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Blanket Distribution</h1>
+        <nav>
+          <a href="" id="menu-icon"></a> 
+          <ul>
+            <li><a href="#nature">Night time </a></li>
+            <li><a href="#wildlife">Group Photos</a></li>
+            <li><a href="#hikers">Happy</a></li>
+          </ul>
+        </nav>
+      </header>
+      <!-- End Header -->
+      <section>
+        <a name="nature"></a>
+        <h2>Night time</h2>
+        <div class="container">
+          <a href="blaket/87 (3).jpg"><img src="blaket/87 (3).jpg" alt="nature1"></a>
+          <a href="blaket/87 (4).jpg"><img src="blaket/87 (4).jpg" alt="nature2"></a>
+          <a href="blaket/87 (5).jpg"><img src="blaket/87 (5).jpg" alt="nature3"></a>
+          <a href="blaket/87 (7).jpg"><img src="blaket/87 (7).jpg" alt="nature4"></a>
+          <a href="blaket/87 (8).jpg"><img src="blaket/87 (8).jpg" alt="nature5"></a>
+          <a href="blaket/87 (9).jpg"><img src="blaket/87 (9).jpg" alt="nature6"></a>
+        </div>      </section>      <!-- End of Nature Section -->
+      <section>
+          <a name="wildlife"></a>
+          <h2>Group Photos</h2>
+          <div class="container">
+              <a href="blaket/87 (1).jpg"><img src= "blaket/87 (1).jpg" alt="animal1"></a>
+              <a href="blaket/87 (10).jpg"><img src="blaket/87 (10).jpg" alt="animal2"></a>
+              <a href="blaket/87 (11).jpg"><img src="blaket/87 (11).jpg" alt="animal3"></a>
+              <a href="blaket/87 (12).jpg"><img src="blaket/87 (12).jpg" alt="animal4"></a>
+              <a href="blaket/87 (2).jpg"><img src= "blaket/87 (2).jpg" alt="animal5"></a>
+              <a href="blaket/87 (6).jpg"><img src= "blaket/87 (6).jpg" alt="animal6"></a>
+          </div>
+      </section>
+      <!-- End of Wildlife Section -->
+      <section>
+          <a name="hikers"></a>
+          <h2>Happy Faces </h2>
+          <div class="container">
+              <a href="blaket/789 (1).jpeg"><img src="blaket/789 (1).jpeg" alt="backpacker1"></a>
+              <a href=""><img src="" alt="backpacker2"></a>
+              <a href="blaket/789 (2).jpeg"><img src="blaket/789 (2).jpeg" alt="backpacker3"></a>
+              <a href=""><img src="" alt="backpacker4"></a>
+              <a href="blaket/789 (3).jpeg"><img src="blaket/789 (3).jpeg" alt="backpacker5"></a>
+              <a href=""><img src="" alt="backpacker6"></a>
+          </div>
+      </section>
+      <!-- End of Hikers Section -->
+      <button onclick="goToTop()" id="topBtn" title="Go to top of page">Top of Page</button>
+      <footer class="footer">
+        <p>
+          Copyright &copy; 2024-2025
+        </p>
+      </footer>
+    </div>
+    <script>
+      // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 4 || document.documentElement.scrollTop > 4) {
+            document.getElementById("topBtn").style.display = "block";
+        } else {
+            document.getElementById("topBtn").style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function goToTop() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+    </script>
+  </body>
+</html>
+
+
+
+
+

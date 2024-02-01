@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html> 
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="title icon" type="image/png" href="images/camera-icon.png">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Self Defence</h1>
+        <nav>
+          <a href="" id="menu-icon"></a> 
+          <ul>
+            <li><a href="#nature">Government School Girls</a></li>
+            <li><a href="#wildlife">Group Photos</a></li>
+            <li><a href="#hikers">More Event Photos</a></li>
+          </ul>
+        </nav>
+      </header>
+      <!-- End Header -->
+      <section>
+        <a name="nature"></a>
+        <h2>Government School Girls</h2>
+        <div class="container">
+          <a href="self defence/5.jpg"><img src="self defence/5.jpg" alt="nature1"></a>
+          <a href="self defence/56 (1).jpg"><img src="self defence/56 (1).jpg" alt="nature2"></a>
+          <a href="self defence/56 (10).jpg"><img src="self defence/56 (10).jpg" alt="nature3"></a>
+          <a href="self defence/56 (11).jpg"><img src="self defence/56 (11).jpg" alt="nature4"></a>
+          <a href="self defence/56 (12).jpg"><img src="self defence/56 (12).jpg" alt="nature5"></a>
+          <a href="self defence/56 (13).jpg"><img src="self defence/56 (13).jpg" alt="nature6"></a>
+        </div>
+      </section>
+      <!-- End of Nature Section -->
+      <section>
+          <a name="wildlife"></a>
+          <h2>Wildlife</h2>
+          <div class="container">
+              <a href="self defence/56 (2).jpg"><img src="self defence/56 (2).jpg" alt="animal1"></a>
+              <a href="self defence/56 (3).jpg"><img src="self defence/56 (3).jpg" alt="animal2"></a>
+              <a href="self defence/56 (4).jpg"><img src="self defence/56 (4).jpg" alt="animal3"></a>
+              <a href="self defence/56 (5).jpg"><img src="self defence/56 (5).jpg" alt="animal4"></a>
+              <a href="self defence/56 (6).jpg"><img src="self defence/56 (6).jpg" alt="animal5"></a>
+              <a href="self defence/56 (7).jpg"><img src="self defence/56 (7).jpg" alt="animal6"></a>
+          </div>
+      </section>
+      <!-- End of Wildlife Section -->
+      <section>
+          <a name="hikers"></a>
+          <h2>Hikers</h2>
+          <div class="container">
+              <a href="self defence/56 (8).jpg"><img src="self defence/56 (8).jpg" alt="backpacker1"></a>
+              <a href="self defence/56 (9).jpg"><img src="self defence/56 (9).jpg" alt="backpacker2"></a>
+              
+          </div>
+      </section>
+      <!-- End of Hikers Section -->
+      <button onclick="goToTop()" id="topBtn" title="Go to top of page">Top of Page</button>
+      <footer class="footer">
+        <p>
+          Copyright &copy; 2024-2025
+        </p>
+      </footer>
+    </div>
+    <script>
+      // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 4 || document.documentElement.scrollTop > 4) {
+            document.getElementById("topBtn").style.display = "block";
+        } else {
+            document.getElementById("topBtn").style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function goToTop() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+    </script>
+  </body>
+</html>
+
+
+
+
+
